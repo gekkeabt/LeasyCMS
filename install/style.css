@@ -1,0 +1,40 @@
+body{
+	background-color:#D1D1D1;
+	color:white;
+	font-family:Helvetica;
+}
+#content1{
+	background-color:#474747;
+	width:600px;
+	border:solid 5px #ABC46C;
+}
+#content2{
+	background-color:#474747;
+	width:600px;
+	border:solid 5px #C4A968;
+}
+#content3{
+	background-color:#474747;
+	width:600px;
+	border:solid 5px #F8C46C;
+}
+form{
+	margin:20px;
+}
+input{
+	margin:5px;
+}
+a:visited{
+	color:gray;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+#finished{
+ color:#ABC46C;
+}
+#links{
+	color:#C4A968;
+}
