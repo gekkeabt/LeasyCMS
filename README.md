@@ -19,6 +19,7 @@ Installation
 --------
 
 The installation is very easy:
+
 1: Copy all the files to the folder you want to use.
 
 2: Go to the url of the folder ( for example: http://www.yourwebsite.com/cmsfolder  )
