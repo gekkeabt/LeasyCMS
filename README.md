@@ -3,7 +3,7 @@ LeasyCMS
 
 Leasy CMS is a small project of me. It is a CMS for developers who want to start making their own CMS but
 they don't want to start from sketch. Also people who want to make a simple website can use it. 
-Because it is simple and lightweight everybody can use it. It is smaller than 2 MB.
+Because it is simple and lightweight everybody can use it. It is smaller than 1 MB.
 
 Changelog 3.2
 --------
