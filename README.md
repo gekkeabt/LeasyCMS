@@ -5,15 +5,13 @@ Leasy CMS is a small project of me. It is a CMS for developers who want to start
 they don't want to start from sketch. Also people who want to make a simple website can use it. 
 Because it is simple and lightweight everybody can use it. It is smaller than 2 MB.
 
-Options in admin panel
+Changelog 3.2
 --------
-
-- Create a page
-- Edit a page ( the title and body )
-- Remove a page
-- Change sitename
-- Change sidebar content
-- Change footer
+- Better structure in the files
+- Code is better organized
+- A simpeler text editor
+- Bugs in the default theme are fixed
+- And some more little changes
 
 Installation
 --------
@@ -30,10 +28,13 @@ The installation is very easy:
 
 5: Enjoy!
 
-Changelog 3.2
+Options in admin panel
 --------
-- Better structure in the files
-- Code is better organized
-- A simpeler text editor
-- Bugs in the default theme are fixed
-- And some more little changes
+
+- Create a page
+- Edit a page ( the title and body )
+- Remove a page
+- Change sitename
+- Change sidebar content
+- Change footer
+
