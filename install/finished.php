@@ -15,7 +15,7 @@ Take a look at your website: <a href="../index.php" target="_blank">Visit your w
 Manage your website: <a href="../admin/" target="_blank">Admin panel</a>
 </div>
 <hr>
-Leasy CMS is a product of <a href="http://www.abakay.zxq.net" target="_blank">Ahmed Bakay</a><br><br>
+Leasy CMS is a product of <a href="http://www.abakay.tk" target="_blank">Ahmed Bakay</a><br><br>
 </div>
 </center>
 </body>

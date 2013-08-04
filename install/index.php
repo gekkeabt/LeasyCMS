@@ -28,7 +28,7 @@ Database name ( this will create the database by its self )<br>
 <input type="submit" name="Submit" value="Create database and insert data">
 </form>
 <hr>
-Leasy CMS is a product of <a href="http://www.abakay.zxq.net" target="_blank">Ahmed Bakay</a><br><br>
+Leasy CMS is a product of <a href="http://www.abakay.tk" target="_blank">Ahmed Bakay</a><br><br>
 </div>
 </center>
 </body>

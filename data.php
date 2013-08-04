@@ -61,7 +61,7 @@ while ($row = mysqli_fetch_array($query)) {
 $pid = $row["id"];
 $linklabel = $row["pagetitle"];
 $url = "index.php?pid=";
-	$menuDisplay .= "<li><a  href=". $url . $pid .">" . $linklabel . "</a></li>";
+	$menuDisplay .= "<li id=menu><a  href=". $url . $pid .">" . $linklabel . "</a></li>";
 } 
 mysqli_free_result($query); 
 // Close the mysql connection //

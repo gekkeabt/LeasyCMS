@@ -1,31 +1,4 @@
-<?php
-// Start a session //
-session_start();
-// Check if the user is logged in //
-if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false)
-{
-    header('Location: login_form.php');
-    exit();
-}
-// Show the welcometext above the page //
-echo '<center><font color=lightblue size=5>Welcome '.$_SESSION['username'].' nice to see you</font></center>';
-?> 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Leasy CMS - Admin</title>
-<link href="style/style.css" type="text/css" rel="stylesheet">
-<script src="editor/js/jquery-1.3.2.min.js" type="text/javascript" language="javascript"> </script>
-<script src="editor/js/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript" language="javascript"> </script>
-<script type="text/javascript" language="javascript">$(document).ready( function(){	$("#myLink3").qtip({ style: {	name: 'dark', border:
-{width: 3,radius: 7}} });for( var i=1; i< 7; i++){$("#myLink"+i).click( function(){//alert($(this).siblings(".codeDesc:first").length);
-if( $(this).siblings(".codeDesc:first").is(":visible") )
-{$(this).siblings(".codeDesc:first").slideUp("slow");}else{$(this).siblings(".codeDesc:first").slideDown(2000);}return false;});	}});
-</script>
-</head>
-<body>
-<center>
-<?php require_once("menu-root.php"); ?>
+<?php include_once "includes/header-root.php"; ?>
 <section id="content">
 <article>
 <h2>Leasy CMS</h2>
@@ -57,11 +30,11 @@ Welcome to the admin panel of Leasy CMS, here you can change the content and oth
 	<span class="blackHead">CMS:</span><br/>
 	Title : Leasy CMS
 	<br>
-	Version : 3.0
+	Version : 3.2
 	<br>
-	Codename : Joytrack
+	Codename : Joytrack - Easiation
 	<br>
-	Publiced : 05 - 11 - 2013
+	Publiced : 08 - 04 - 2013
 	<br/>
 	<br/>
 	<span class="blackHead">Extra information:</span><br/>
@@ -69,43 +42,27 @@ Welcome to the admin panel of Leasy CMS, here you can change the content and oth
 	<br>
 	Used tools: Notepad++ , PHP , MySQL , Apache , PHPMyAdmin , JQuery , CKEditor, QTip, Mozilla Firefox, Google Chrome, Internet Explorer
 	<br>
+	<span class="blackHead">Changelog ( after version 3.0)</span><br>
 	<br>
-	<span class="blackHead">Changelog ( after version 2.4)</span><br>
-	Improved front-end design
+	Better back-end structure
 	<br>
-	Improved back-end design
+	Smaller size: The size is reduced to about 800KB which makes it very lightweight
 	<br>
-	Faster connection with MySQL
+	Better organized code
 	<br>
-	English language
+	More simple text editor
 	<br>
-	Smaller size
+	Default theme design fixes
 	<br>
 	<b>And more!</b>
 	<br>
 	<br>
 	<br>
-	Contact : Ahmed Bakay, <a href="mailto:achieboy_97@hotmail.com">achieboy_97@hotmail.com</a>
+	Contact : Ahmed Bakay, <a href="mailto:ahmedbakay@hotmail.com">ahmedbakay@hotmail.com</a><br><br>
+	My website: <a href="http://abakay.tk" target="_blank">Ahmed Bakay</a>
 </div>
 </article>
 </section>
 </center>
 </body>
 </html>
-
-
-<script type="text/javascript">
-
-</script>
-
-
-
-
-
-
-
-
-
-
-
-

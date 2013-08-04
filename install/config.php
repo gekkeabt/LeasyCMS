@@ -21,7 +21,7 @@ Password<br>
 <input type="submit" name="Submit" value="Set Information">
 </form>
 <hr>
-Leasy CMS is a product of <a href="http://www.abakay.zxq.net" target="_blank">Ahmed Bakay</a><br><br>
+Leasy CMS is a product of <a href="http://www.abakay.tk" target="_blank">Ahmed Bakay</a><br><br>
 </div>
 </center>
 </body>

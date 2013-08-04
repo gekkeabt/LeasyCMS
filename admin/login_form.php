@@ -21,7 +21,7 @@ if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false)
 <html>
 <head>
 <title>Leasy CMS - Admin</title>
-<link href="style/style.css" type="text/css" rel="stylesheet">
+<link href="includes/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <center>
@@ -42,7 +42,7 @@ Please enter the data of your useraccount to login in the admin panel
 </article>
 <hr>
 <article>
-Leasy CMS is a product of <a href="http://www.abakay.zxq.net" target="_blank">Ahmed Bakay</a>
+Leasy CMS is a product of <a href="http://abakay.tk" target="_blank">Ahmed Bakay</a>
 </article>
 </section>
 </center>

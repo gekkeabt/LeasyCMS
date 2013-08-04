@@ -1,18 +1,9 @@
-<?php
-// Start a session //
-session_start();
-// Check if the user is logged in //
-if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false)
-{
-    header('Location: ../login_form.php');
-    exit();
-}
-?> 
+<?php include_once "../includes/header.php"; ?>
 <center>
 <?php
 include_once "../../scripts/connect_to_mysql.php";
 $query = mysqli_query($myConnection, "UPDATE functions SET content='".$_POST['sitename']."' WHERE title='sitename'") or die (mysqli_error($myConnection));
-			echo "<meta http-equiv=refresh content=2.5;url=../index.php>";
+			echo "<meta http-equiv=refresh content=1;url=../index.php>";
 			echo 'Sitename is changed with succes';
 exit();
 ?>

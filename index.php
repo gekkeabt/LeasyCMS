@@ -9,10 +9,16 @@ body{
 }
 #mainpanel{
 	width:750px;
+	font-size:15px;
 }
-li{
+#menu{
 	display:inline;
 	margin-right:10px;
+}
+#contentholder{
+	max-width:600px;
+	word-wrap: break-word;
+	
 }
 </style>
 </head>
@@ -22,11 +28,12 @@ li{
 <?php echo $menuDisplay; ?>
 <h2><b><?php echo $sitename; ?></b></h2>
 <hr>
-<table><tr><td width="80%" valign="top">
+<table><tr><td id="contentholder" width="600px" valign="top">
 	<h3><b><?php echo $pagetitle; ?></b></h3>
 	<hr>
+	<p>
 	<?php echo $body; ?>
-	</td><td width="20%" valign="top"><h3><b>News</b></h3><hr>
+	</td><td id="sidebarholder" width="150px" valign="top"><h3><b>News</b></h3><hr>
 	<?php echo $sidebar ?></td></tr>
 </table>
 <hr>

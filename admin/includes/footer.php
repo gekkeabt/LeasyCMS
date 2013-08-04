@@ -1,0 +1,1 @@
+<article>Leasy CMS is a product of <a href="http://www.abakay.tk" target="_blank">Ahmed Bakay</a></article></section><script type="text/javascript">CKEDITOR.replace( 'contentedit' ); //Textarea name is always contentedit</script></center></body></html>

@@ -29,3 +29,11 @@ The installation is very easy:
 4: Fill all the fields with correct information
 
 5: Enjoy!
+
+Changelog 3.2
+--------
+- Better structure in the files
+- Code is better organized
+- A simpeler text editor
+- Bugs in the default theme are fixed
+- And some more little changes
