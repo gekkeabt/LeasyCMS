@@ -1,41 +1,12 @@
-body{
-	font-family: Tahoma, Geneva, sans-serif;
-	color: white;
-	background-color:#52657A;
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
-#content{
-	background-color:#4D4D4D;
-	width:900px;
-	border:solid 2px #B3A89B;
-	margin:25px;
+.main{
+	width:97%;
+	margin-left:auto;
+	margin-right:auto;
 }
-article{
-	margin-top:15px;
-	margin-bottom:15px;
-	margin-left:40px;
-	margin-right:40px;
-}
-#menu li{
-	display:inline;
-	margin-right:5px;
-}
-a:visited{
-	color:white;
-}
-#choice{
-	list-style:none;
-	margin-left:-40px;
-}
-#choice li{
-	margin-top:5px;
-	margin-bottom:5px;
-}
-a{
-	color:white;
-	text-decoration:none;
-	list-style:none;
-	font-weight:bold;
-}
-.codeDesc{
+#about-detailed{
 	display:none;
 }

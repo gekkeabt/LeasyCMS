@@ -1,4 +1,4 @@
-<center>
+<?php require("includes/header-login.php"); ?>
 <?php
 // Start session //
 session_start();
@@ -27,5 +27,5 @@ if(isset($_POST['username'], $_POST['password']))
         header('Refresh: 3; url=login_form.php');
         echo 'You did not fill in everything!';
 }
-?> 
-</center>
+?>
+<?php require("includes/footer.php"); ?>

@@ -1,5 +1,4 @@
 <?php include_once "../includes/header.php"; ?>
-<center>
 <?php
 include_once "../../scripts/connect_to_mysql.php";
 $query = mysqli_query($myConnection, "UPDATE functions SET content='".$_POST['contentedit']."' WHERE title='sidebar'") or die (mysqli_error($myConnection));
@@ -7,4 +6,3 @@ $query = mysqli_query($myConnection, "UPDATE functions SET content='".$_POST['co
 			echo 'Sidebar changed with succes!';
 exit();
 ?>
-</center>

@@ -1,20 +1,33 @@
 Thanks for using Leasy CMS!
 
+
 ---------------------------------------------------------------------------
 
+
 Beneath this the instructions for the CMS will follow.
+
 ___________________________________________________________________________
 
+
 1 - Go to the url where you places all the files. ( for example: http://www.yourwebsite.com/thefolderwherethefilesareplaced )
+
 2 - You will be redirected to the installation
+
 3 - Fill in the information of the database you are using ( no information will be send to other places )
+
 4 - The database and tables are placed in the server
+
 5 - You can now set your username, password, sitename, footer
+
 6 - At last you get to a page which will show you the succes of the installation if everything went well
+
 7 - If you go to - for example: http://www.yourwebsite.com/thefolderwherethefilesareplaced/admin - to get to the admin panel and create, edit, remove pages and the settings of your site
+
 
 --------------------------------------------------------------------------
 
+
 Enjoy Leasy CMS, a CMS made for people who want to start making their own CMS and people who want a very simple CMS for an small website!
 
-You can reach Ahmed Bakay at: http://www.abakay.tk/
+
+You can reach me at: http://www.abakay.tk/ or http://gekkeabt.eu/

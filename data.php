@@ -36,7 +36,7 @@ $sqlCommand = "SELECT content FROM functions WHERE title='sitename' LIMIT 1";
 $query = mysqli_query($myConnection, $sqlCommand) or die (mysqli_error()); 
 while ($row = mysqli_fetch_array($query)) { 
     $sitename = $row["content"];
-} 
+}
 mysqli_free_result($query); 
 
 $sqlCommand = "SELECT content FROM functions WHERE title='footer' LIMIT 1"; 

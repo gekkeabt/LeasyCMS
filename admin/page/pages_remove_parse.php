@@ -1,5 +1,4 @@
 <?php include_once "../includes/header.php"; ?>
-<center>
 <?php
 if (!$_GET['pid']) {
 	$pid = '1';
@@ -12,4 +11,3 @@ $query = mysqli_query($myConnection, "DELETE FROM pages WHERE id='$pid'") or die
 			echo 'The page is removed with succes!';
 exit();
 ?>
-</center>
